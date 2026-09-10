@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WebLab | Hosting y servidores web</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>¿Cómo llega una página web hasta ti?</h1>
+
+        <p>
+            Descubre el recorrido de una página web
+            desde sus archivos hasta tu navegador.
+        </p>
+	<button id="startButton">🚀 Comenzar recorrido</button>
+    </header>
+
+
+    <main>
+
+	        <section id="recorrido">
+
+            <h2>🚀 El viaje de una página web</h2>
+
+            <div class="flujo">
+		<div id="paquete">📨</div>
+
+                <div class="paso">
+                    <div class="icono">👩‍💻</div>
+                    <h3>Navegador</h3>
+                    <p>Realiza una solicitud.</p>
+                </div>
+
+                <div class="flecha">→</div>
+
+                <div class="paso">
+                    <div class="icono">🌐</div>
+                    <h3>Internet</h3>
+                    <p>La solicitud viaja.</p>
+                </div>
+
+                <div class="flecha">→</div>
+
+                <div class="paso">
+                    <div class="icono">💻</div>
+                    <h3>Servidor</h3>
+                    <p>Recibe la solicitud.</p>
+                </div>
+
+                <div class="flecha">→</div>
+
+                <div class="paso">
+                    <div class="icono">📦</div>
+                    <h3>Respuesta</h3>
+                    <p>Envía los archivos.</p>
+                </div>
+
+            </div>
+
+            <p id="estado">...</p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
