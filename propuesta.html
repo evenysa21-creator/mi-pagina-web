@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Propuesta educativa, niveles, plana docente y uniformes de la I.E. Gerardo Arias Copaja, Tacna.">
+  <title>Propuesta Educativa | I.E. Gerardo Arias Copaja</title>
+  <link rel="icon" type="image/png" href="assets/insignia-colegio.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       CABECERA Y MENÚ DE NAVEGACIÓN
+       ========================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-brand">
+        <img src="assets/insignia-colegio.png" alt="Insignia I.E. Gerardo Arias Copaja" class="insignia">
+        <div class="brand-text">
+          <h1>I.E. Gerardo Arias Copaja</h1>
+          <p>42253 · Tacna, Perú</p>
+        </div>
+      </a>
+
+      <!-- Checkbox Hack para menú móvil -->
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="propuesta.html" class="active">Propuesta Educativa</a>
+        <a href="colegio.html">Nuestro Colegio</a>
+        <a href="bienestar.html">Servicios y Bienestar</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="tramites.html">Trámites</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       CONTENIDO: PROPUESTA EDUCATIVA
+       ========================================== -->
+  <main>
+    <section style="background: var(--primary); color: #fff; padding: 3rem 1.25rem; text-align: center;">
+      <div class="container">
+        <span class="hero-badge" style="background: var(--secondary); color: var(--dark);">Formación Académica</span>
+        <h2 style="font-size: 2.2rem; margin-top: 0.5rem; color: #fff;">Propuesta Educativa y Niveles</h2>
+        <p style="max-width: 600px; margin: 0.5rem auto 0 auto; opacity: 0.9;">Conoce nuestra organización académica, plana docente especializada y guía oficial de uniformes.</p>
+      </div>
+    </section>
+
+    <!-- Niveles Educativos (Sin favoritismos visuales, todos con el mismo estilo limpio) -->
+    <section class="container" style="padding: 4rem 1.25rem;">
+      <div class="section-title">
+        <h2>Niveles de Estudio</h2>
+        <p>Educación pública orientada al desarrollo cognitivo y social en cada etapa</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Nivel Inicial -->
+        <div class="card level-card">
+          <span class="level-badge tag-inicial">3, 4 y 5 años</span>
+          <h3 class="level-title">Educación Inicial</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">Primeras experiencias de socialización, juego estructurado y aprestamiento para el aprendizaje.</p>
+          <ul style="text-align: left; font-size: 0.85rem; color: var(--text); margin-bottom: 1.5rem;" class="info-list">
+            <li>🕒 <strong>Horario de Ingreso:</strong> 07:50 a.m.</li>
+            <li>🕒 <strong>Horario de Salida:</strong> 12:30 p.m.</li>
+            <li>🏫 <strong>Secciones:</strong> Únicas por edad</li>
+          </ul>
+          <a href="docentes.html#inicial" class="btn btn-primary" style="width: 100%;">Ver Plana Docente</a>
+        </div>
+
+        <!-- Nivel Primaria -->
+        <div class="card level-card">
+          <span class="level-badge tag-primaria">1° a 6° Grado</span>
+          <h3 class="level-title">Educación Primaria</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">Consolidación de la lectoescritura, razonamiento lógico-matemático y valores ciudadanos.</p>
+          <ul style="text-align: left; font-size: 0.85rem; color: var(--text); margin-bottom: 1.5rem;" class="info-list">
+            <li>🕒 <strong>Horario de Ingreso:</strong> 07:40 a.m.</li>
+            <li>🕒 <strong>Horario de Salida:</strong> 01:15 p.m.</li>
+            <li>🏫 <strong>Secciones:</strong> A, B y C</li>
+          </ul>
+          <a href="docentes.html#primaria" class="btn btn-primary" style="width: 100%;">Ver Plana Docente</a>
+        </div>
+
+        <!-- Nivel Secundaria -->
+        <div class="card level-card">
+          <span class="level-badge tag-secundaria">1° a 5° Año</span>
+          <h3 class="level-title">Educación Secundaria</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">Desarrollo del pensamiento crítico, orientación vocacional y preparación ciudadana.</p>
+          <ul style="text-align: left; font-size: 0.85rem; color: var(--text); margin-bottom: 1.5rem;" class="info-list">
+            <li>🕒 <strong>Horario de Ingreso:</strong> 07:25 a.m.</li>
+            <li>🕒 <strong>Horario de Salida:</strong> 02:00 p.m.</li>
+            <li>🏫 <strong>Secciones:</strong> A, B y C</li>
+          </ul>
+          <a href="docentes.html#secundaria" class="btn btn-primary" style="width: 100%;">Ver Plana Docente</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guía de Uniformes con 4 Fotografías Organizadas -->
+    <section class="container" style="padding-bottom: 5rem;">
+      <div class="section-title">
+        <h2>Guía del Uniforme Escolar</h2>
+        <p>Presentación personal e identidad de los estudiantes copajinos</p>
+      </div>
+
+      <div class="grid-2" style="gap: 2rem;">
+        <!-- Uniforme Diario - Chicos y Chicas -->
+        <div class="card" style="padding: 2rem;">
+          <h3 style="color: var(--primary); margin-bottom: 1rem; border-bottom: 2px solid var(--secondary); padding-bottom: 0.5rem;">Uniforme Diario Oficial</h3>
+          
+          <div class="grid-2" style="margin-bottom: 1.5rem;">
+            <div>
+              <img src="assets/uniforme-chicos.jpg" alt="Uniforme de Varones" style="border-radius: var(--radius-sm); height: 400px; object-fit: cover; width: 100%; border: 2px solid var(--border-color);">
+              <p style="text-align: center; font-weight: 600; margin-top: 0.5rem; font-size: 0.9rem; color: var(--dark);">Varones</p>
+            </div>
+            <div>
+              <img src="assets/uniforme-chicas.jpeg" alt="Uniforme de Mujeres" style="border-radius: var(--radius-sm); height: 400px; object-fit: cover; width: 100%; border: 2px solid var(--border-color);">
+              <p style="text-align: center; font-weight: 600; margin-top: 0.5rem; font-size: 0.9rem; color: var(--dark);">Mujeres</p>
+            </div>
+          </div>
+
+          <ul class="uniform-list">
+            <li><strong>Varones:</strong> Pantalón gris plomo, camisa blanca con insignia, zapatos negros.</li>
+            <li><strong>Mujeres:</strong> Falda gris plomo, blusa blanca con insignia, zapatos negros.</li>
+          </ul>
+        </div>
+
+        <!-- Buzo de Educación Física - Delantera y Espalda -->
+        <div class="card" style="padding: 2rem;">
+          <h3 style="color: var(--primary); margin-bottom: 1rem; border-bottom: 2px solid var(--secondary); padding-bottom: 0.5rem;">Buzo de Educación Física</h3>
+          
+          <div class="grid-2" style="margin-bottom: 1.5rem;">
+            <div>
+              <img src="assets/buzo-delantera.jpeg" alt="Buzo Parte Delantera" style="border-radius: var(--radius-sm); height: 400px; object-fit: cover; width: 100%; border: 2px solid var(--border-color);">
+              <p style="text-align: center; font-weight: 600; margin-top: 0.5rem; font-size: 0.9rem; color: var(--dark);">Vista Delantera</p>
+            </div>
+            <div>
+              <img src="assets/buzo-espalda.jpeg" alt="Buzo Parte Trasera" style="border-radius: var(--radius-sm); height: 400px; object-fit: cover; width: 100%; border: 2px solid var(--border-color);">
+              <p style="text-align: center; font-weight: 600; margin-top: 0.5rem; font-size: 0.9rem; color: var(--dark);">Vista Posterior</p>
+            </div>
+          </div>
+
+          <ul class="uniform-list">
+            <li><strong>Casaca y Pantalón:</strong> Diseño institucional en granate con líneas doradas.</li>
+            <li><strong>Polo:</strong> Polo deportivo blanco con cuello y zapatillas blancas.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       PIE DE PÁGINA GLOBAL
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>I.E. Gerardo Arias Copaja</h4>
+        <p>Institución Educativa Pública N° 42253. Formando ciudadanos con valores, disciplina y excelencia en Tacna.</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/18gRUnx47m/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          <a href="https://www.youtube.com/@gerardoariascopaja9201" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces Rápidos</h4>
+        <ul class="footer-links">
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="propuesta.html">Propuesta Educativa</a></li>
+          <li><a href="colegio.html">Nuestro Colegio</a></li>
+          <li><a href="bienestar.html">Servicios y Bienestar</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Secciones</h4>
+        <ul class="footer-links">
+          <li><a href="noticias.html">Noticias y Comunicados</a></li>
+          <li><a href="tramites.html">Documentos y Trámites</a></li>
+          <li><a href="contacto.html">Contacto y Ubicación</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto Institucional</h4>
+        <ul class="footer-links">
+          <li>📍 Tacna, Perú</li>
+          <li>📞 (052) 555-555</li>
+          <li>✉️ ie.gerardoarias@ugeltacna.gob.pe</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 I.E. Gerardo Arias Copaja (42253). Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

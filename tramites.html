@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documentos institucionales oficiales, reglamentos y trámites de la I.E. Gerardo Arias Copaja, Tacna.">
+  <title>Documentos y Trámites | I.E. Gerardo Arias Copaja</title>
+  <link rel="icon" type="image/png" href="assets/insignia-colegio.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       CABECERA Y MENÚ DE NAVEGACIÓN
+       ========================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-brand">
+        <img src="assets/insignia-colegio.png" alt="Insignia I.E. Gerardo Arias Copaja" class="insignia">
+        <div class="brand-text">
+          <h1>I.E. Gerardo Arias Copaja</h1>
+          <p>42253 · Tacna, Perú</p>
+        </div>
+      </a>
+
+      <!-- Checkbox Hack para menú móvil -->
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Menú principal con la sección actual resaltada -->
+      <nav class="nav-menu">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="propuesta.html">Propuesta Educativa</a>
+        <a href="colegio.html">Nuestro Colegio</a>
+        <a href="bienestar.html">Servicios y Bienestar</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="tramites.html" class="active">Trámites</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       CONTENIDO: DOCUMENTOS Y TRÁMITES
+       ========================================== -->
+  <main>
+    <!-- Cabecera de la página -->
+    <section style="background: var(--primary); color: #fff; padding: 3rem 1.25rem; text-align: center;">
+      <div class="container">
+        <span class="hero-badge" style="background: var(--secondary); color: var(--dark);">Transparencia y Gestión</span>
+        <h2 style="font-size: 2.2rem; margin-top: 0.5rem; color: #fff;">Documentos y Trámites Oficiales</h2>
+        <p style="max-width: 600px; margin: 0.5rem auto 0 auto; opacity: 0.9;">Acceso a normativas institucionales, reglamentos internos y formatos orientados a la comunidad educativa.</p>
+      </div>
+    </section>
+
+    <!-- Lista de Documentos Oficiales -->
+    <section class="container" style="padding: 4rem 1.25rem;">
+      <div class="section-title">
+        <h2>Normativa Institucional</h2>
+        <p>Descarga de documentos oficiales aprobados por la dirección y UGEL Tacna</p>
+      </div>
+
+      <div class="lista-documentos" style="display: grid; gap: 1rem; max-width: 900px; margin: 0 auto;">
+        
+        <!-- Documento 1 -->
+        <article class="card" style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem;">
+          <div>
+            <span style="font-size: 0.8rem; color: var(--secondary-hover); font-weight: 700; text-transform: uppercase; display: block; margin-bottom: 0.2rem;">PDF</span>
+            <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.3rem;">Reglamento Interno (RI) Vigente</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Normas de convivencia, derechos y deberes de los estudiantes y padres de familia.</p>
+          </div>
+          <a href="documentos/reglamento_interno.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="white-space: nowrap; font-size: 0.85rem; padding: 0.5rem 1rem;">Descargar PDF</a>
+        </article>
+
+        <!-- Documento 2 -->
+        <article class="card" style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem;">
+          <div>
+            <span style="font-size: 0.8rem; color: var(--secondary-hover); font-weight: 700; text-transform: uppercase; display: block; margin-bottom: 0.2rem;">PDF</span>
+            <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.3rem;">Proyecto Educativo Institucional (PEI)</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Plan estratégico de desarrollo institucional a mediano plazo.</p>
+          </div>
+          <a href="documentos/PEI.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="white-space: nowrap; font-size: 0.85rem; padding: 0.5rem 1rem;">Descargar PDF</a>
+        </article>
+
+        <!-- Documento 3 -->
+        <article class="card" style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem;">
+          <div>
+            <span style="font-size: 0.8rem; color: var(--secondary-hover); font-weight: 700; text-transform: uppercase; display: block; margin-bottom: 0.2rem;">PDF</span>
+            <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.3rem;">Código de Convivencia Escolar</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Lineamientos para promover un clima escolar basado en el respeto mutuo.</p>
+          </div>
+          <a href="documentos/plan_de_covivencia.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="white-space: nowrap; font-size: 0.85rem; padding: 0.5rem 1rem;">Descargar PDF</a>
+        </article>
+
+        <!-- Documento 4 -->
+        <article class="card" style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem;">
+          <div>
+            <span style="font-size: 0.8rem; color: var(--secondary-hover); font-weight: 700; text-transform: uppercase; display: block; margin-bottom: 0.2rem;">PDF</span>
+            <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.3rem;">Plan Anual de Trabajo (PAT)</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Cronograma de actividades académicas, cívicas y administrativas del año.</p>
+          </div>
+          <a href="documentos/PAT.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="white-space: nowrap; font-size: 0.85rem; padding: 0.5rem 1rem;">Descargar PDF</a>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       PIE DE PÁGINA GLOBAL (Footer)
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>I.E. Gerardo Arias Copaja</h4>
+        <p>Institución Educativa Pública N° 42253. Formando ciudadanos con valores, disciplina y excelencia en Tacna.</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/18gRUnx47m/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          <a href="https://www.youtube.com/@gerardoariascopaja9201" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces Rápidos</h4>
+        <ul class="footer-links">
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="propuesta.html">Propuesta Educativa</a></li>
+          <li><a href="colegio.html">Nuestro Colegio</a></li>
+          <li><a href="bienestar.html">Servicios y Bienestar</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Secciones</h4>
+        <ul class="footer-links">
+          <li><a href="noticias.html">Noticias y Comunicados</a></li>
+          <li><a href="tramites.html">Documentos y Trámites</a></li>
+          <li><a href="contacto.html">Contacto y Ubicación</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto Institucional</h4>
+        <ul class="footer-links">
+          <li>📍 Tacna, Perú</li>
+          <li>📞 (052) 555-555</li>
+          <li>✉️ ie.gerardoarias@ugeltacna.gob.pe</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2065 I.E. Gerardo Arias Copaja (42253). Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
